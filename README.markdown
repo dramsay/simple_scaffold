@@ -1,4 +1,4 @@
-# Simple Scaffold Generator
+# Simple Scaffold
 
 A customized, simpler version of the rspec_scaffold generator.
 
