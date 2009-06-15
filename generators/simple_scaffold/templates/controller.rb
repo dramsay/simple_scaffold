@@ -16,6 +16,7 @@ class <%= controller_class_name %>Controller < ApplicationController
   end
 
   def create
+    @<%= file_name %> = <%= class_name %>.new(params[:<%= file_name %>])
     if @<%= file_name %>.save
       flash[:notice] = '<%= class_name %> was successfully created.'
       redirect_to(@<%= file_name %>)
