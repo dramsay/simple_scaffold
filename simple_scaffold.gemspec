@@ -2,38 +2,40 @@
 
 Gem::Specification.new do |s|
   s.name = %q{simple_scaffold}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Doug Ramsay"]
-  s.date = %q{2009-06-02}
-  s.email = %q{dougramsay@gmail.com}
+  s.date = %q{2009-06-15}
+  s.email = %q{doug@intridea.com}
   s.extra_rdoc_files = [
     "LICENSE",
-    "README.markdown",
+     "README.markdown"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
+     "README.markdown",
      "Rakefile",
      "VERSION.yml",
-     "lib/simple_scaffold.rb",
-     "test/simple_scaffold_test.rb",
-     "test/test_helper.rb", 
-     "generators/simple_scaffold/simple_scaffold_generator.rb", 
-     "generators/simple_scaffold/templates/controller.rb", 
+     "generators/simple_scaffold/simple_scaffold_generator.rb",
+     "generators/simple_scaffold/templates/controller.rb",
      "generators/simple_scaffold/templates/controller_spec.rb",
-     "generators/simple_scaffold/templates/migration.rb", 
-     "generators/simple_scaffold/templates/model.rb", 
-     "generators/simple_scaffold/templates/model_spec.rb"
+     "generators/simple_scaffold/templates/migration.rb",
+     "generators/simple_scaffold/templates/model.rb",
+     "generators/simple_scaffold/templates/model_spec.rb",
+     "lib/simple_scaffold.rb",
+     "simple_scaffold.gemspec",
+     "test/simple_scaffold_test.rb",
+     "test/test_helper.rb"
   ]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/dramsay/simple_scaffold}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.2}
-  s.summary = %q{A customized, simpler version of the rspec_scaffold generator}
+  s.summary = %q{TODO}
   s.test_files = [
     "test/simple_scaffold_test.rb",
      "test/test_helper.rb"
